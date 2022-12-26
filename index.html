@@ -116,16 +116,13 @@
         // 去除search
         const searchIndex = href.indexOf('?');
         if (searchIndex > 0) href = href.substring(0, searchIndex);
-        console.log('href:', href)
         const arr = href.split('/');
         const name = arr[arr.length - 1]; // 获取名称
-        console.log('name:', name)
 
         const lazyCSS = ["/assets/css/@wangeditor_editor.501cf061.css","/assets/css/components_GlobalSearch.04b75e37.css","/assets/css/page_all.module.9ae8f6ec.css","/assets/css/page_dataScreen_comp_Header.eef1a66a.css","/assets/css/page_dataScreen_index.module.051c50a7.css","/assets/css/page_dataScreen_comp_RealTimeAccessChart.2a4f10ab.css","/assets/css/page_dataScreen_comp_MaleFemaleRatioChart.671c76c9.css","/assets/css/page_dataScreen_comp_ChinaMapChart.53ed2bf7.css","/assets/css/page_dataScreen_comp_OverNext30Chart.5080c387.css","/assets/css/page_dataScreen_comp_HotPlateChart.32c76943.css","/assets/css/page_dataScreen_comp_AnnualUseChart.d0eb16d5.css"];
 
         for (let i = lazyCSS.length - 1; i >= 0; i--) {
           if (lazyCSS[i].includes(name)) {
-            console.log('css:', lazyCSS[i])
             const elem = document.createElement("link");
             elem.rel = "stylesheet";
             elem.type = "text/css";
@@ -135,8 +132,6 @@
             lazyCSS.splice(i, 1);
           }
         }
-
-        console.log('lazyCSS:', lazyCSS)
 
         setTimeout(function() {
           for (let i = lazyCSS.length - 1; i >= 0; i--) {
@@ -154,7 +149,6 @@
         if (name === 'dataScreen' || name === 'dashboard') {
           for (let i = lazyJS.length - 1; i >= 0; i--) {
             if (lazyJS[i].includes('echarts')) {
-              console.log('echarts:', lazyJS[i])
               const elem = document.createElement("link");
               elem.rel = "modulepreload";
               elem.crossorigin = "";
@@ -168,7 +162,6 @@
 
         for (let i = lazyJS.length - 1; i >= 0; i--) {
           if (lazyJS[i].includes(name)) {
-            console.log('js:', lazyJS[i])
             const elem = document.createElement("link");
             elem.rel = "modulepreload";
             elem.crossorigin = "";
@@ -178,8 +171,6 @@
             lazyJS.splice(i, 1);
           }
         }
-
-        console.log('lazyJS:', lazyJS)
 
         setTimeout(function() {
           for (let i = 0; i < lazyJS.length; i++) {
