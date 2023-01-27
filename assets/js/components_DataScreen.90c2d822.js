@@ -1,0 +1,2 @@
+import{j as r}from"./components_Bottom.700b5d0d.js";import{I as t}from"./@iconify_react.b3e9d196.js";import{L as e}from"./react-router-dom.a2aae0dd.js";import{T as o}from"./antd.ac81835c.js";function s(){return r(o,{title:"数据大屏",children:r(e,{to:"/dataScreen",target:"_blank",children:r(t,{className:"flex items-center justify-center text-lg mr-3 cursor-pointer",icon:"ion:bar-chart-sharp"})})})}export{s as D};
+//# sourceMappingURL=components_DataScreen.90c2d822.js.map

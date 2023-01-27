@@ -1,0 +1,2 @@
+import{j as s}from"./components_Bottom.700b5d0d.js";import{r as o}from"./react.fd625a73.js";import{u as n}from"./components_Business.8bf97dd0.js";import{u as r}from"./react-router.7e891526.js";const c="/assets/png/welcome.f7dafd12.png";function l(){const[t]=n(),e=t(),a=r();return o.useEffect(()=>{e||a("/login")},[e]),s("div",{className:"flex justify-center",children:s("img",{src:c,alt:"Image",className:"w-980px h-full container"})})}export{l as P};
+//# sourceMappingURL=page_index.tsx_index.f321482c.js.map

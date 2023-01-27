@@ -1,0 +1,2 @@
+import{j as t}from"./components_Bottom.700b5d0d.js";import{r as s}from"./react.fd625a73.js";import{u as a}from"./page_content_article.5332c884.js";import{W as m}from"./components_WangEditor.c73cf904.js";function u(){a("富文本");const[r,o]=s.useState("<p>hello</p>");return t("div",{className:"m-30px",children:t(m,{value:r,onChange:e=>o(e)})})}export{u as M};
+//# sourceMappingURL=page_demo_editor.2bfd10c4.js.map

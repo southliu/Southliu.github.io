@@ -1,1 +1,2 @@
 const e=[{label:"日期",name:"pay_date",component:"RangePicker",componentProps:{allowClear:!1}},{label:"游戏ID",name:"game_ids",wrapperCol:200,component:"GameSelect"},{label:"合作公司",name:"partners",wrapperCol:200,component:"PartnerSelect"},{label:"全服充值",name:"all_pay",wrapperCol:15,component:"Checkbox"}];export{e as s};
+//# sourceMappingURL=page_dashboard_model.ts.d4c4a16f.js.map

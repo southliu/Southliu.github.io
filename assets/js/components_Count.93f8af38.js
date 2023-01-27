@@ -1,0 +1,2 @@
+import{a as p}from"./components_Bottom.700b5d0d.js";import{r}from"./react.fd625a73.js";import{a as d}from"./components_Business.8bf97dd0.js";function I(u){const{prefix:c,start:n,end:e}=u,[s,a]=r.useState(n),[t,o]=r.useState(null);return r.useEffect(()=>{const f=e-n,l=2*60,m=Math.floor(f/l)||1;o(setInterval(()=>{a(i=>i+m)}))},[e,n]),r.useEffect(()=>{s>=e&&(t&&(clearInterval(t),o(null)),a(e))},[e,s,t]),r.useEffect(()=>()=>{t&&(clearInterval(t),o(null))},[t]),p("span",{children:[c,d(s)]})}export{I as C};
+//# sourceMappingURL=components_Count.93f8af38.js.map
