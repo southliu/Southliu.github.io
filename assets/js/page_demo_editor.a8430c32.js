@@ -1,0 +1,1 @@
+import{j as t}from"./components_Bottom.b6a39c54.js";import{r as s}from"./react.75970298.js";import{u as a}from"./page_content_article.fdcf680a.js";import{W as m}from"./components_WangEditor.d394a1fc.js";function u(){a("富文本");const[r,o]=s.useState("<p>hello</p>");return t("div",{className:"m-30px",children:t(m,{value:r,onChange:e=>o(e)})})}export{u as M};
