@@ -1,2 +1,1 @@
 const t="_container_a402e_1",a="_dataScreen_a402e_12",e="_main_a402e_23",n="_mainLeft_a402e_30",_="_top_a402e_38",o="_center_a402e_39",m="_bottom_a402e_40",i="_mainCenter_a402e_62",c="_map_a402e_70",s="_mapTitle_a402e_77",r="_mapBottom_a402e_94",p="_mainRight_a402e_103",l="_title_a402e_134",h="_mainChart_a402e_153",C={container:t,dataScreen:a,main:e,mainLeft:n,top:_,center:o,bottom:m,mainCenter:i,map:c,mapTitle:s,mapBottom:r,mainRight:p,title:l,mainChart:h};export{C as s};
-//# sourceMappingURL=page_dataScreen_index.module.less_used.f01f6426.js.map
