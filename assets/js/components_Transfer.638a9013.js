@@ -1,0 +1,1 @@
+import{r as f,j as i}from"./react.402eeaf7.js";import{k as m}from"./antd.2a715811.js";function g(t){const{value:n}=t,[s,c]=f.useState(n||[]),r=e=>{var a;c(e),(a=t==null?void 0:t.onChange)==null||a.call(t,e)};return i.jsx(m,{...t,targetKeys:s,onChange:r})}export{g as B};
