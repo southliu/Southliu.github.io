@@ -1,1 +1,0 @@
-import{r as a,j as t}from"./react.a7da97a2.js";import{l as n}from"./antd.850acb68.js";function r(r){const{value:e}=r,[o,s]=a.useState(e||[]);return t.jsx(n,{...r,targetKeys:o,onChange:a=>{var t;s(a),null==(t=null==r?void 0:r.onChange)||t.call(r,a)}})}export{r as B};
