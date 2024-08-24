@@ -1,1 +1,0 @@
-import{j as r}from"./react@18.3.1.B8wSySjr.js";import{d as t}from"./react-router@6.22.3_react@18.3.1.PEedDKQr.js";import"./@babel_runtime@7.24.7.BIUS7hgZ.js";import"./@remix-run_router@1.15.3.Di2mmZ39.js";function e(){const{id:e}=t();return r.jsxs("div",{children:["id: ",e]})}export{e as default};
