@@ -1,1 +1,0 @@
-import{j as t}from"./react@18.3.1.B8wSySjr.js";import{u as e}from"./react-i18next@14.1.1_i18next@23.11.4_react-dom@18.3.1_react@18.3.1.DJVsM5yd.js";import"./@babel_runtime@7.24.7.BIUS7hgZ.js";function r(){const{t:r}=e();return t.jsx("div",{className:"m-30px",children:r("content.threeTierStructure")})}export{r as default};
