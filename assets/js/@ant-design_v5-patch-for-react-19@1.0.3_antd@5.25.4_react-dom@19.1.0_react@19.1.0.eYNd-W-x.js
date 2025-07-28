@@ -1,1 +1,0 @@
-import{c as t}from"./react-dom@19.1.0_react@19.1.0.o1WqAU0f.js";import{u as o}from"./antd@5.25.4_react-dom@19.1.0_react@19.1.0.D3GrBiye.js";o((function(o,r){r._reactRoot||(r._reactRoot=t.createRoot(r));var e=r._reactRoot;return e.render(o),function(){return new Promise((function(t){setTimeout((function(){e.unmount(),t()}),0)}))}}));
