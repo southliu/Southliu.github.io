@@ -1,0 +1,1 @@
+import{j as n}from"./react@19.1.1.osUeTYwR.js";function r(r){const{children:e,className:o}=r;return n.jsx("div",{...r,id:"card",className:`\n        h-full\n        box-border\n        overflow-auto\n        relative\n        box-border\n        px-5\n        py-3\n        rounded-3\n        ${o}\n      `,children:e})}export{r as B};
