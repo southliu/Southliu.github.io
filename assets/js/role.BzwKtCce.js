@@ -1,1 +1,0 @@
-import{r as e}from"./index.B9u6y3-g.js";function r(r){return e.get("/role/page",{params:r})}function t(r){return e.get(`/role/detail?id=${r}`)}function n(r){return e.post("/role/create",r)}function o(r,t){return e.put(`/role/update/${r}`,t)}function u(r){return e.delete(`/role/${r}`)}function a(){return e.get("/role/list")}export{t as a,a as b,n as c,u as d,r as g,o as u};
