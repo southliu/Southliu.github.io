@@ -1,0 +1,1 @@
+System.register([],function(e,r){"use strict";return{execute:function(){var r,t;e("r",function(){return t?r:(t=1,r=function(e){return e.replace(/[A-Z]/g,function(e){return"-"+e.toLowerCase()}).toLowerCase()})})}}});

@@ -1,0 +1,1 @@
+import{j as t}from"./react@18.3.1.zoCbf7Ot.js";import{d as a}from"./antd@6.1.3_react-dom@18.3.1_react@18.3.1__react@18.3.1.BuknFP3A.js";function e(){return t.jsx("div",{className:"absolute left-50% top-50% -translate-x-1/2 -translate-y-1/2 text-center",children:t.jsx(a,{spinning:!0})})}export{e as L};
