@@ -1,0 +1,1 @@
+System.register(["./index-legacy.C1uQ0EC2.js"],function(t,e){"use strict";var r;return{setters:[function(t){r=t.r}],execute:function(){t({a:function(t){return r.get("/platform/partner",{params:t})},g:function(t,e){return r.get(t,{params:e})}})}}});
