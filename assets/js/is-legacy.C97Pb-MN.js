@@ -1,0 +1,1 @@
+System.register([],function(t,e){"use strict";return{execute:function(){t({a:function(t){return/(((^https?:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+(?::\d+)?|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)$/.test(t)},i:function(t){return"number"==typeof t&&isFinite(t)}})}}});

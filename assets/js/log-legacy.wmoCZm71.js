@@ -1,0 +1,1 @@
+System.register(["./index-legacy.BNQ_BMuS.js"],function(t,e){"use strict";var n;return{setters:[function(t){n=t.r}],execute:function(){t({b:function(t){return n.post("/log".concat("/batchDelete"),t)},c:function(t){return n.post("/log".concat("/create"),t)},d:function(t){return n.delete("/log".concat("/",t))},g:function(t){return n.get("/log".concat("/page"),{params:t})}})}}});
