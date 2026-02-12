@@ -1,1 +1,0 @@
-import{r as t}from"./index.TNQj79ie.js";function n(n){return t.get("".concat("/log","/page"),{params:n})}function o(n){return t.post("".concat("/log","/create"),n)}function c(n){return t.delete("".concat("/log","/").concat(n))}function e(n){return t.post("".concat("/log","/batchDelete"),n)}export{e as b,o as c,c as d,n as g};

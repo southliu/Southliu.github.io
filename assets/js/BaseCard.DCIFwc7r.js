@@ -1,1 +1,0 @@
-import{j as n}from"./react@19.2.3.DikTGMTS.js";function r(r){const{children:o,className:e}=r;return n.jsx("div",{...r,id:"card",className:"\n        h-full\n        box-border\n        overflow-auto\n        relative\n        box-border\n        px-5\n        py-3\n        rounded-3\n        ".concat(e,"\n      "),children:o})}export{r as B};
