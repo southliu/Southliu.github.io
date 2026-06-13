@@ -1,1 +1,0 @@
-import{a as r}from"./react@19.2.4.D-B59SOF.js";import{s,aW as o}from"./@sentry_core@10.45.0.DvrVnF9m.js";import{i as t}from"./@sentry_browser@10.45.0.B4hUNNz3.js";function e(e){const a={...e};return s(a,"react"),o("react",{version:r.version}),t(a)}export{e as i};
