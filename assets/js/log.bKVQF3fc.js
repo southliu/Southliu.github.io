@@ -1,0 +1,1 @@
+import{r as t}from"./index.D1nLIJd0.js";function e(e){return t.get("".concat("/system/log","/page"),{params:e})}function n(e){return t.post("".concat("/system/log","/create"),e)}function o(e){return t.delete("".concat("/system/log","/").concat(e))}function c(e){return t.post("".concat("/system/log","/batchDelete"),e)}export{c as b,n as c,o as d,e as g};
